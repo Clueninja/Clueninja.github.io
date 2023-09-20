@@ -1,0 +1,20 @@
+h1{
+    text-align: center;
+    background-color: darkslategrey;
+    color: white;
+}
+body{
+    background-color: lightsteelblue;
+}
+main{
+    text-align: center;
+    background-color: azure;
+}
+h2{
+    background-color: lightblue;
+}
+
+.github-link{
+    background-color: cadetblue;
+    color: black;
+}
