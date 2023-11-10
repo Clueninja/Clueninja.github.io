@@ -3,18 +3,30 @@ h1{
     background-color: darkslategrey;
     color: white;
 }
+h2{
+    background-color: lightblue;
+}
+h3{
+    background-color: rgb(122, 177, 224);
+}
 body{
     background-color: lightsteelblue;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 main{
     text-align: center;
     background-color: azure;
-}
-h2{
-    background-color: lightblue;
+    
 }
 
 .github-link{
     background-color: cadetblue;
     color: black;
+}
+
+.page-link{
+    font-size: large;
+    color: cadetblue;
+    
 }
