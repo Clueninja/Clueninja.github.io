@@ -10,29 +10,38 @@
         <header><h1>Project Portfolio</h1></header>
         <main>
             <h2>
-                Antweight Combat Robots
+                Ant Weight Combat Robots
             </h2>
             <p>
-                Antweight combat robots are small robots ~150g capable of controlling or damaging opponents in order to win fights.
-                They are usually controlled by radio transmitters with a receiver and ESC for powering the motors.
+                Ant weight combat robots are small robots weighing approximately 150 grams capable of controlling or damaging opponents in order to win fights.
+                They are usually controlled by radio transmitters with a receiver and an electronic speed controller for powering the motors.
 
                 There are many different classes of robots, the most common being flippers and spinners.
 
-                While I was a member of <a href="https://sheffieldroboteers.com/"> Sheffield Roboteers Society </a> I developed 3 robots, 2 are society robots and one is my personal robot.
-                
+                I am currently technical officer for <a href="https://sheffieldroboteers.com/"> Sheffield Roboteers Society </a> part of this role involves developing and fixing the society bots. I designed two bots, Sir Forkalot and Depth Charge, that only compete in sportsman (no spinner) fights.
+
+                I have designed three personal robots: Harvester, Drum & Bass, and Bolts & Nuts.
+
                 All of these robots I printed from my Ender 3 S1 using eSUN PLA ST and designed in FreeCAD. 
             </p>
+            <h3>
+                Harvester
+            </h3>
+            <p>
+                My latest design, it has four wheels, powered by two motors and belts. It is designed to be modular, enabling easy replacement of the armour without a full reprint of the chassis.
+
+                Currently work in process, I hope to see it's first fight soon.
+            </p>
+
             <h3>
                 Drum & Bass
             </h3>
             <p>
                 Drum & Bass is my first spinner, it is a drum/ eggbeater design with a solid plastic weapon. It sports 2 wheel drive which means I get spend more weight on the weapon.
                 
-                This is my personal robot and has currently competed in no competitions but during testing performed very effective against brittle chassis.
-                
-                I used 2 n20 brushed motors, a Malenki Nano, and a 1806 Brushless Motor, for my transmitter I use a Flysky i6.
+                Drum & Bass came third place in the first full combat fight at Sheffield Roboteers, successfully knocking out much more experienced competitors. Unfortunately, it got destroyed in the second full combat fight night where it won best fight award for its final fight against a single toothed vertical spinner.
 
-                
+                I am proud to say that an experienced competitor modified his robot to counter Drum & Bass for its final night due to its performance in the previous competition.
             </p>
 
             <img src="images/Drum&Bass1.jpg" width="20%" />
@@ -42,7 +51,7 @@
                 Sir Forkalot
             </h3>
             <p>
-                Sir Forkalot is a flipper style robot, the flipper is directly attached to the servo, this reduces the weight of the mechanism but is not as effective as spring or band based flippers, it is also 2 wheel drive.
+                Sir Forkalot is a flipper style robot, the flipper is directly attached to the servo, this reduces the weight of the mechanism but is not as effective as spring or band based flippers, it is also two wheel drive.
 
                 As a society robot it cannot compete in fights against spinners. 
                 In the few fights it has fought in it handles quite aggressively, however with a decent driver it can prove quite effective at flipping opponents.
@@ -53,7 +62,7 @@
                 Depth Charge
             </h3>
             <p>
-                Depth Charge is a pusher robot, it has 8 forks around its body which makes it difficult to control from the sides, it also has 4 wheel drive, increasing the control the robot has against its opponents.
+                Depth Charge is a pusher robot, it has 8 forks around its body which makes it difficult to control from the sides, it also has four wheel drive, increasing the control the robot has against its opponents.
                 
                 As it is also society robot it also cannot be entered into fights with spinners but it has performed relatively well against Sir Forkalot as the long forks make it difficult for the large fork on Sir Forkalot to get underneath and flip it.
             </p>
@@ -62,13 +71,15 @@
             <img src="images/DepthCharge2.jpg" width="20%"/>
 
             <h2>
-                ESP32 Bluetooth Low Energy Gamepad: <a href="https://github.com/Clueninja/esp32-ble-gamepad">Github link</a>
+                ESP32 Bluetooth Low Energy Controller: <a href="https://github.com/Clueninja/esp32-ble-gamepad">Github link</a>
             </h2>
             <p>
                 My first personal electronics project. I designed and developed the software using the esp32-idf crates for Rust.
-                You can find my write up <em> <a href="pages/bluetooth-gamepad.html" title="Gamepad"> here</a></em>.
+                You can find my write up <em> <a href="pages/bluetooth-gamepad.html" title="BLE Controller"> here</a></em>.
 
-                <img src="images/finished 5.jpg" alt="Finished Prototype of the Gamepad" width="70%"/>
+                Currently I am in the process of designing a case for it.
+
+                <img src="images/finished 5.jpg" alt="Finished Prototype of the Controller" width="70%"/>
             </p>
 
             <h2>
@@ -98,11 +109,13 @@
             <p>
                 Using the <a href="https://github.com/Jonimoose/libfxcg"> fxcg sdk </a> I developed a few applications in C for my Casio fx-CG50 Graphical Calculator.
             </p>
-            <h3> Control: <a href="https://github.com/Clueninja/control-fxcg"> Github Link</a> </h3>
+            <h3> Control: <a href="https://github.com/Clueninja/control-fxcg"> GitHub Link</a> </h3>
             <p>
                 Control is an Application to display the step responses and bode plots for first order and second order Laplace transforms.
                 
                 The most challenging part of this applications is to find accurate algorithms for the different operations on doubles as there is no pow() or exp() function builtin.
+
+                The plots are accurate to within the calculators capability.
                 
                 This project is mainly designed around my course, which involves a lot of control theory and modelling.
             </p>
@@ -114,14 +127,14 @@
             <p>
                 The Mandelbrot Set is a fractal pattern, you can pan and zoom the camera and the beauty found in mathematics.
                 
-                I heavily optimised this application for performance, using fixed point calculations rather than doubles. However, this means you can't zoom in infinetely.
+                I heavily optimised this application for performance, using fixed point calculations rather than doubles. However, this means you can't zoom in infinitely.
             </p>
             <img src="images/MandelbrotFull.jpg" width="20%"/>
             <img src="images/MandelbrotZoomed.jpg" width="20%" />
             <img src="images/MandelbrotMin.jpg" width="20%" />
 
             <h2 class="github-link">
-                My Github <a href="https://github.com/Clueninja" title="My Github Page">page</a>
+                My GitHub <a href="https://github.com/Clueninja" title="My GitHub Page">page</a>
             </h2>
         </main>
     </body>
